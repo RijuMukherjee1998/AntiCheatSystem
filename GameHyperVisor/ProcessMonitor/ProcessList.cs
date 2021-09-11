@@ -2,7 +2,7 @@
 using System.Diagnostics;
 using GameHyperVisor.DataStructures;
 using System.Collections.Generic;
-using System.Management;
+
 namespace GameHyperVisor.ProcessMonitor
 {
     class ProcessList
@@ -53,7 +53,7 @@ namespace GameHyperVisor.ProcessMonitor
                     }
                 }
             }
-            pd.ListAllKeyValuePairs(ref processDictionary);
+            //pd.ListAllKeyValuePairs(ref processDictionary);
         }
 
     }

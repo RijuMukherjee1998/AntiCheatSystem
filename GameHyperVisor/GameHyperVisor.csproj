@@ -44,6 +44,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataStructures\ProcessLookupTable.cs" />
+    <Compile Include="HypervisorLive\HyperVisorHealth.cs" />
+    <Compile Include="Networking\HypervisorTcp.cs" />
     <Compile Include="ProcessMonitor\ProcessList.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -51,5 +53,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
